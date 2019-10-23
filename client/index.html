@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>p2p webrtc</title>
+	<style>
+	.container {
+		width: 250px;
+		margin: 100px auto;
+		padding: 10px 30px;
+		border-radius: 4px;
+    border: 1px solid #ebeef5;
+    box-shadow: 0 2px 12px 0 rgba(0,0,0,.1);
+    color: #303133;
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		<p>流程：</p>
+		<ul>
+			<li>打开<a href="/p2p?type=answer" target="_blank">接收方页面</a>；</li>
+			<li>打开<a href="/p2p?type=offer" target="_blank">发起方页面</a>；</li>
+			<li>确认双方都已建立ws连接；</li>
+			<li>发起方点击 start 按钮。</li>
+		</ul>
+	</div>
+</body>
+</html>

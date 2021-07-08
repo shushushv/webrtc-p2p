@@ -14,7 +14,7 @@ npm run dev                 // 访问 localhost:8080
 
 **先看一下最终效果**：
 
-![](https://image-static.segmentfault.com/140/741/140741630-5db028fbdabca_articlex)
+![](https://image-static.segmentfault.com/140/741/140741630-5db028fbdabca)
 
 ### 1.相关技术
 
